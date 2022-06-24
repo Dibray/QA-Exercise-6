@@ -4,7 +4,7 @@ long long balance = 1000L;
 
 void add_balance(long long sum) // Add to current balance specified sum
 {
-	balance = sum;
+	balance += sum;
 }
 
 int main()
